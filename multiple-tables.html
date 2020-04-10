@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Tables Example</title>
+  </head>
+
+  <body>
+    <div class="balance-summary">
+      <section id="balance-title">
+        <h2>Downloading Multiple Tables in Portrait Orientation</h2>
+        <p>
+          This report was printed by LOGGED IN USER NAME on CURRENT DATE
+        </p>
+      </section>
+
+      <section class="balance-report">
+        <article>
+          <h4 id="bankOne-header">National Bank 1</h4>
+          <table id="bankOne-table" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Tax ID</th>
+                <th>Daily Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>WWW0987</td>
+                <td>1234567890.44</td>
+              </tr>
+              <tr>
+                <td>WWW1234</td>
+                <td>- 415432</td>
+              </tr>
+              <tr>
+                <td>WWW4567</td>
+                <td>83929</td>
+              </tr>
+              <tr>
+                <td>WWWW1029</td>
+                <td>00.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article>
+          <h4 id="bankTwo-header">National Bank 2</h4>
+          <table id="bankTwo-table" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Tax ID</th>
+                <th>Daily Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>WWW0987</td>
+                <td>4567890</td>
+              </tr>
+              <tr>
+                <td>WWW1234</td>
+                <td>- 32.99</td>
+              </tr>
+              <tr>
+                <td>WWW4567</td>
+                <td>629.57</td>
+              </tr>
+              <tr>
+                <td>WWWW1029</td>
+                <td>- 60.70</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article>
+          <h4 id="bankThree-header">National Bank 3</h4>
+          <table id="bankThree-table" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Tax ID</th>
+                <th>Daily Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>WWW0987</td>
+                <td>00.00</td>
+              </tr>
+              <tr>
+                <td>WWW1234</td>
+                <td>00.00</td>
+              </tr>
+              <tr>
+                <td>WWW4567</td>
+                <td>00.00</td>
+              </tr>
+              <tr>
+                <td>WWWW1029</td>
+                <td>00.00</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+
+        <article>
+          <h4 id="allBanks-header">All 3 Banks</h4>
+          <table id="allBanks-table" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Tax ID</th>
+                <th>Daily Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>WWW0987</td>
+                <td>123914679</td>
+              </tr>
+              <tr>
+                <td>WWW1234</td>
+                <td>- 415464.99</td>
+              </tr>
+              <tr>
+                <td>WWW4567</td>
+                <td>84558.57</td>
+              </tr>
+              <tr>
+                <td>WWWW1029</td>
+                <td>- 60.70</td>
+              </tr>
+            </tbody>
+          </table>
+        </article>
+      </section>
+
+      <input type="button" value="download" />
+    </div>
+  </body>
+</html>

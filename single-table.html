@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Table Example</title>
+  </head>
+
+  <body>
+    <div id="totals-summary">
+      <section id="transaction-title">
+        <h2>Downloading Single Table in Landscape Orientation</h2>
+        <p>
+          This report was printed by LOGGED IN USER NAME on CURRENT DATE
+        </p>
+      </section>
+
+      <section class="totals-report">
+        <table id="transaction-table" cellspacing="0">
+          <thead>
+            <tr>
+              <th class="table-th">Transaction <br />Type</th>
+              <th class="table-th">Account <br />Type</th>
+              <th class="table-th">Number of <br />Records</th>
+              <th class="table-th">Amount</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td></td>
+              <td>SOS</td>
+              <td>154</td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td></td>
+              <td>OH</td>
+              <td>64</td>
+              <td>0.00</td>
+            </tr>
+            <tr class="bold">
+              <td></td>
+              <td>Total Records:</td>
+              <td>218</td>
+              <td>0.00</td>
+            </tr>
+            <tr>
+              <td>Debits</td>
+              <td>SOS</td>
+              <td>3</td>
+              <td>6,005,283.33</td>
+            </tr>
+            <tr>
+              <td>Debits</td>
+              <td>OH</td>
+              <td>0</td>
+              <td>0.00</td>
+            </tr>
+            <tr class="bold">
+              <td></td>
+              <td>Total Debits:</td>
+              <td>3</td>
+              <td>6,005,283.33</td>
+            </tr>
+            <tr>
+              <td>Credits</td>
+              <td>SOS</td>
+              <td>14</td>
+              <td>65,003,973.15</td>
+            </tr>
+            <tr>
+              <td>Credits</td>
+              <td>OH</td>
+              <td>0</td>
+              <td>0.00</td>
+            </tr>
+            <tr class="bold">
+              <td></td>
+              <td>Total Credits:</td>
+              <td>14</td>
+              <td>65,003,973.15</td>
+            </tr>
+            <tr>
+              <td colspan="4"></td>
+            </tr>
+            <tr class="bold">
+              <td></td>
+              <td></td>
+              <td>Grand Total:</td>
+              <td>58,998,689.82</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <input type="button" value="download" />
+    </div>
+  </body>
+</html>
