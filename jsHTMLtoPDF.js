@@ -6,15 +6,18 @@
 // However, converting MULTIPLE tables is little different. Each table MUST HAVE a header.
 // In other words, the lengths of tableArray[] and tableHeaderArray[] HAVE to match.
 //
-//     @param {string} fileName - what name should be used for the file
+//     @param {string} fileName - the name of the PDF file
 //     @param {string} title - ID of the page title (and sub-title) section
 //                             (optional, but have to send an empty string; like '' )
 //     @param {string[]} tableArray - ID(s) of the HTML table(s)
 //     @param {string[]} tableHeaderArray - ID(s) of the HTML table header(s)
+//                                          (for single table with no table header,
+//                                          this can be left blank; like [])
 //     @param {string} pg_orientation - preferred printing page orientation
 //                                      (optional, can be omitted)
 //
 // Sources: 
+//     - https://github.com/simonbengtsson/jsPDF-AutoTable
 //     - https://codepen.io/someatoms/pen/adojWy
 //     - https://www.codexworld.com/convert-html-to-pdf-using-javascript-jspdf/
 //     - https://github.com/simonbengtsson/jsPDF-AutoTable/blob/a35c7a2c18ba4a8f10a7fb420335c05b8824524a/examples/examples.js#L175
