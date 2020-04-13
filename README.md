@@ -1,4 +1,5 @@
 # ConvertSingleOrMultipleTableToPDF
+<meta name="google-site-verification" content="p7x2Pi1XhP8EzC2FkJ8KPWPE08xk5Knfio5BpwZZ0pE" />
 
 For one of my projects, I had to export HTML table to a PDF file with 
 
