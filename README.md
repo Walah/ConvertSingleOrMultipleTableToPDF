@@ -1,5 +1,10 @@
-# ConvertSingleOrMultipleTableToPDF
-<meta name="google-site-verification" content="p7x2Pi1XhP8EzC2FkJ8KPWPE08xk5Knfio5BpwZZ0pE" />
+<!--
+  Title: Convert Single or Multiple Table(s) to PDF
+  Description: This example converts (single or multiple) HTML table(s) to PDF using the jsPDF autotable plugin.
+  Author: Walah
+-->
+ 
+# Convert Single or Multiple Table to PDF
 
 For one of my projects, I had to export HTML table to a PDF file with 
 
